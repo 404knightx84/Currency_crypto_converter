@@ -1,10 +1,3 @@
-"""
-history.py
-Logs every successful conversion to history.json so users can review
-past conversions. Kept separate from converter.py so the conversion
-logic doesn't need to know anything about persistence.
-"""
-
 import json
 import os
 
