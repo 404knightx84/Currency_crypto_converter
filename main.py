@@ -1,16 +1,3 @@
-#!/usr/bin/env python3
-"""
-main.py
-Command-line interface for the currency/crypto converter.
-
-Usage:
-    python main.py                      Interactive mode
-    python main.py 100 USD EUR          One-shot conversion
-    python main.py --history            Show recent conversions
-    python main.py --coins              List supported crypto symbols
-    python main.py --clear-history      Wipe local conversion history
-"""
-
 import sys
 
 from converter import convert, ConverterError, supported_crypto_symbols
